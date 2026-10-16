@@ -1,12 +1,28 @@
 # Design Skills
 
-Four complementary skills for understanding product requests and evaluating user-facing work from discovery through validation.
+Eight complementary skills for understanding product requests, building with design systems, and evaluating user-facing work from discovery through validation.
 
 ## Skills
 
 ### [Product Discovery](skills/product-discovery/SKILL.md)
 
 Use before implementation when a request is ambiguous or introduces new behaviour. This skill helps investigate existing product evidence, identify consequential gaps in domain logic, decide when to infer, ask or defer, and capture confirmed product knowledge without turning every request into a lengthy requirements exercise.
+
+### [Design System First](skills/design-system-first/SKILL.md)
+
+Use before building, editing or restyling user interfaces. This skill finds and applies the project's existing design system, tokens, components and interaction patterns instead of inventing new styles.
+
+### [Design System Author](skills/design-system-author/SKILL.md)
+
+Use when a project needs clearer, tighter or more agent-friendly design-system constraints. This skill audits the existing interface, captures decisions in concise documentation and creates rules that can be checked mechanically.
+
+### [Design Rules Linter](skills/design-rules-linter/SKILL.md)
+
+Use after writing or editing front-end code. This skill includes a dependency-free linter for detecting common design-system violations and guidance for configuring project-specific rules.
+
+### [Design System Review](skills/design-system-review/SKILL.md)
+
+Use to review UI code, screenshots or pull requests against the project's design system. This skill separates mechanical violations from structural inconsistencies and judgement calls that need human input.
 
 ### [Experience Validation](skills/experience-validation/SKILL.md)
 
@@ -25,10 +41,11 @@ Use when building or changing user-facing interfaces. This skill checks rendered
 Across the skills:
 
 - Inspect the actual product and rendered experience whenever possible.
+- Reuse established design-system decisions before introducing new ones.
 - Prefer evidence and observed behavior over assumptions or source inspection alone.
 - Test scenarios proportionately, focusing on the journeys and risks relevant to the change.
 - Distinguish verified findings from hypotheses, assumptions and checks that could not be performed.
 - Describe issues precisely, connect them to user impact and recommend actionable corrections.
 - Fix recurring problems at the appropriate shared layer and verify the result.
 
-These skills are complementary rather than sequential requirements for every task. Product discovery resolves meaningful uncertainty before implementation; experience validation verifies changed journeys; design quality review assesses usability and craft; and accessibility validation examines barriers for people with disabilities.
+These skills are complementary rather than sequential requirements for every task. Product discovery resolves meaningful uncertainty before implementation; the design-system skills guide, document, lint and review implementation decisions; experience validation verifies changed journeys; design quality review assesses usability and craft; and accessibility validation examines barriers for people with disabilities.

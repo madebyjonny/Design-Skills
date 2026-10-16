@@ -1,0 +1,9 @@
+{
+  "extensions": [".tsx", ".jsx", ".ts", ".js", ".vue", ".svelte", ".html", ".css", ".scss"],
+  "ignore_dirs": ["node_modules", "dist", "build", ".next", ".git", "coverage"],
+  "token_files": ["tokens.css", "theme.css", "tokens.ts", "tailwind.config.js", "tailwind.config.ts"],
+  "allowed_px": [0, 1, 2, 4, 8, 12, 16, 20, 24, 32, 40, 48, 64],
+  "allowed_icon_sizes": [16, 20],
+  "disabled_rules": [],
+  "link_markers": ["<a ", "<a\n", "Link", "href"]
+}
